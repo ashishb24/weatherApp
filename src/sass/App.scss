@@ -1,0 +1,86 @@
+@import "color";
+
+* {
+    font-family: $text1, $text2;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: url("../image/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+
+.main {
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    margin-top: 3rem;
+
+}
+
+.child {
+    background: $dark;
+    padding: 5rem;
+    border-radius: 2rem;
+
+}
+
+.location {
+    color: $first;
+    text-transform: capitalize;
+
+}
+
+.temp {
+    padding: 1rem;
+    color: $first;
+}
+
+.inputFeild {
+    outline: none;
+    background: none;
+    border: 1px solid $third;
+    border-radius: 1rem 1rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    color: $first;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+
+p {
+    color: $first;
+    border-bottom: #ffffff solid .1rem;
+    padding: 1.2rem;
+
+}
+
+h4 {
+    color: $first;
+    padding: 1rem;
+
+}
+
+h5 {
+    color: $first;
+    padding: 1rem;
+
+}
+
+.clock {
+    color: $first;
+    padding: 1rem;
+
+}
