@@ -11,7 +11,7 @@ const getWeather = () => {
      useEffect(()=>{
 
       const fetchApi=async ()=>{
-            const  key = `http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=e906c2120babdf1aab98134f31328a68`;
+            const  key = `http://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid={ApiKey}`;
             const responce= await fetch(key)
             const resJson= await responce.json()
 
